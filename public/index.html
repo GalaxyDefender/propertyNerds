@@ -70,7 +70,7 @@
 
         <nav aria-label="breadcrumb" class=".d-none .d-md-block .d-xl-none">
           <ol class="breadcrumb">
-            You are here: <li class="breadcrumb-item"><a href="#">Property Nerds</a></li>
+            You are here:&nbsp;<li class="breadcrumb-item"><a href="#">Property Nerds</a></li>
             <li class="breadcrumb-item active" aria-current="page">Homepage</li>
           </ol>
         </nav>
@@ -81,13 +81,32 @@
 
         <h2>Featured Properties</h2>
 
-        <figure class="figure">
-          <img src="img/property1.jpg" class="figure-img img-fluid" alt="Property 1">
-        </figure>
+        <section class="row">
+          <div class="col-md-6">
+            <div class="card mb-6 shadow-sm">
+              <img class="card-img-top" src="img/property1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4>R110 Per m2</h4>
+                <p class="card-text">200m2 Office to let in Stellenbosch</p>
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <figure class="figure">
-          <img src="img/property2.jpg" class="figure-img img-fluid" alt="Property 2">
-        </figure>
+          <div class="col-md-6">
+              <div class="card mb-6 shadow-sm">
+                <img class="card-img-top" src="img/property2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h4>R110 Per m2</h4>
+                  <p class="card-text">200m2 Office to let in Stellenbosch</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        
         <!-- /END THE FEATURETTES -->
 
       </div><!-- /.container -->
@@ -95,8 +114,8 @@
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <!-- COULD BE DONE IN jQuery as an ARRAY -->
+        <p>Browse: Home | On Show | Residential Homes For Sale | Residential Homes To Let | Vacant Land | New Developments | Calculators | Area Profiles</p>
       </footer>
     </main>
 
