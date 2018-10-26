@@ -1,3 +1,7 @@
+h1, h2 {
+    text-transform: capitalize;
+}
+
 .logoNerd {
     width: 50%;
     height: 50%;
