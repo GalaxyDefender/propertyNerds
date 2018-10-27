@@ -12,6 +12,11 @@ h1, h2 {
     height: 50%;
 }
 
+/* nav.navbar.navbar-light.bg-light.navbar-expand-md {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0));  
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+} */
+
 .navbar-light .navbar-nav .nav-link {
     text-transform: uppercase;
     font-family: BEBAS;
@@ -29,19 +34,52 @@ h1, h2 {
     color: black;
 }
 
-li.nav-item {
+/* li.nav-item {
     height: 42px;
-}
+} */
 
 #myCarousel {
     margin-bottom: 50px;
+    /* box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1); */
+}
+
+.carousel-inner {
+    position: relative;
+    z-index: -1;
+    
 }
 
 img.d-block.w-100 {
     /* height: 180px; */
 }
 
+form {
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    /* z-index: -1; */
+}
+
 .social-icons {
     width: 30px;
     height: 30px;
+}
+
+footer {
+    background-color: #c7c7c7;
+    color: white;
+}
+
+footer hr {
+    border-top: 1px solid white;
+}
+
+footer .container {
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-right: 5px;
 }
