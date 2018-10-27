@@ -12,9 +12,25 @@ h1, h2 {
     height: 50%;
 }
 
-.nav-link {
+.navbar-light .navbar-nav .nav-link {
     text-transform: uppercase;
     font-family: BEBAS;
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-item.active {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+li.nav-item {
+    height: 42px;
 }
 
 #myCarousel {
