@@ -18,13 +18,15 @@ h1, h2, h3, h4 {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
 } */
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link,
+.more {
     text-transform: uppercase;
     font-family: BEBAS;
     color: black;
 }
 
-.navbar-light .navbar-nav .nav-item.active {
+.navbar-light .navbar-nav .nav-item.active, 
+.more{
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -33,6 +35,19 @@ h1, h2, h3, h4 {
     border: 1px solid black;
     border-radius: 5px;
     color: black;
+}
+
+.more{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    pointer-events: auto;
+}
+
+.more:hover{
+    color: white;
+    background-color: black;
+    /* pointer-events: auto; */
 }
 
 /* li.nav-item {
@@ -51,6 +66,15 @@ h1, h2, h3, h4 {
 
 img.d-block.w-100 {
     height: 800px;
+}
+
+.top-icons {
+    width: 50px;
+    height: 50px;
+}
+
+#print_icon {
+    margin-right: 10px;
 }
 
 form {
