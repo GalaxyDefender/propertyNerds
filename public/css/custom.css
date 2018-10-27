@@ -63,13 +63,40 @@ form {
 .card {
     border: 1px solid rgba(0, 0, 0, .15);
     margin-bottom: 50px;
+    position: relative;
+}
+
+.card .new {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    margin: 20px 20px 0px 20px;
+}
+
+.card .web-ref {
+    /* text-align: right; */
+    position: relative;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    padding: 5px 15px;
+    margin: -34px 20px 0px 20px;
+}
+
+.mandate  {
+    text-align: left;
+    margin-left: -15px;
+    text-transform: uppercase;
+}
+
+.refPA  {
+    text-align: right;
+    margin-right: -15px;
 }
 
 .card-img-top {
     height: 300px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 20px 20px 0px 20px;
 }
 
 .card-body h4::after {
