@@ -1,3 +1,8 @@
+@font-face {
+    font-family: BEBAS;
+    src: url('../fonts/BEBAS___.TTF');
+}
+
 h1, h2 {
     text-transform: capitalize;
 }
@@ -9,6 +14,7 @@ h1, h2 {
 
 .nav-link {
     text-transform: uppercase;
+    font-family: BEBAS;
 }
 
 #myCarousel {
