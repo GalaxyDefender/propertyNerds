@@ -34,10 +34,15 @@ p {
     color: black;
 }
 
-.navbar-light .navbar-nav .nav-item.active, 
+.navbar-light .navbar-nav .nav-link.active, 
 .more{
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+    padding: 8px;
+    color: black;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
