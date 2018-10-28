@@ -79,17 +79,20 @@ li.breadcrumb-item a{
 }
 
 .carousel-from {
+    background-color: rgba(0, 0, 0, .5);
     padding: 40px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.form-control {
+    border-radius: 0px;
 }
 
 .custom-select {
     color: black;
     border-radius: 0px;
     background: #fff url("../img/chevron-bottom-2x.png") no-repeat right .75rem center;
-}
-
-.form-control {
-    border-radius: 0px;
 }
 
 .nd2-input-group {
@@ -104,11 +107,9 @@ li.breadcrumb-item a{
 }
 
 #more-search {
-    /* background: rgba(0, 0, 0, 0) url("../img/chevron-bottom-white-2x.png") no-repeat left .75rem center; */
     border: 1px solid white;
     padding: 10px;
     float: right;
-    /* padding: 10px 10px 10px 30px; */
 }
 
 #search {
@@ -130,11 +131,6 @@ img.d-block.w-100 {
     margin-right: 10px;
 }
 
-form {
-    background-color: rgba(0, 0, 0, .5);
-    padding: 10px;
-}
-
 .card {
     border: 1px solid rgba(0, 0, 0, .15);
     margin-bottom: 50px;
@@ -150,7 +146,6 @@ form {
 }
 
 .card .web-ref {
-    /* text-align: right; */
     position: relative;
     background-color: rgba(0, 0, 0, .8);
     color: white;
