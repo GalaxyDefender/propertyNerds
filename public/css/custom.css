@@ -90,16 +90,21 @@ li.breadcrumb-item a{
     border: 1px solid white;
     padding: 10px;
     margin-left: -5px;
+    float: left;
 }
 
 #more-search {
+    /* background: rgba(0, 0, 0, 0) url("../img/chevron-bottom-white-2x.png") no-repeat left .75rem center; */
     border: 1px solid white;
     padding: 10px;
+    float: right;
+    /* padding: 10px 10px 10px 30px; */
 }
 
 #search {
     border: 2px solid white;
-    padding: 10px;
+    padding: 9px;
+    float: right;
 }
 
 img.d-block.w-100 {
