@@ -50,4 +50,19 @@
         margin: -34px 20px -20px 20px;
         bottom: 24px;
     }
+
+    section.banner {
+        margin-bottom: 40px;
+    }
+    
+    section.banner p {
+        text-align: center;
+        padding-top: 0px; 
+    }
+    
+    .call {
+        padding: 25px;
+        padding-left: 25%;
+        padding-top: 43px;
+    }
 }
