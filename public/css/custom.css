@@ -23,6 +23,11 @@ p {
     position: relative;
 }
 
+#smallNerd {
+    width: 40%;
+    height: 40%;
+}
+
 .nav-item:nth-child(-n + 2) {
     margin-right: 50px;
 }
