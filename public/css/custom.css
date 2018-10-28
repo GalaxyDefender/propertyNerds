@@ -64,6 +64,17 @@ h1, h2, h3, h4 {
 #ref-num {
     border: 1px solid white;
     padding: 10px;
+    margin-left: -5px;
+}
+
+#more-search {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+#search {
+    border: 2px solid white;
+    padding: 10px;
 }
 
 img.d-block.w-100 {
@@ -80,10 +91,8 @@ img.d-block.w-100 {
 }
 
 form {
-    /* position: absolute; */
     background-color: rgba(0, 0, 0, .5);
     padding: 10px;
-    /* z-index: -1; */
 }
 
 .card {
