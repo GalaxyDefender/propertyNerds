@@ -39,6 +39,15 @@
         padding-left: 25%;
         padding-top: 20px;
     }
-    
+}
 
+@media screen and (max-width: 900px) {
+    .card .web-ref {
+        position: relative;
+        background-color: rgba(0, 0, 0, .8);
+        color: white;
+        padding: 5px 15px;
+        margin: -34px 20px -20px 20px;
+        bottom: 24px;
+    }
 }
