@@ -14,10 +14,9 @@ h1, h2, h3, h4 {
     position: relative;
 }
 
-/* nav.navbar.navbar-light.bg-light.navbar-expand-md {
-    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0));  
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
-} */
+.nav-item:nth-child(-n + 2) {
+    margin-right: 50px;
+}
 
 .navbar-light .navbar-nav .nav-link,
 .more {
@@ -33,6 +32,7 @@ h1, h2, h3, h4 {
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
+    padding: 7px;
     border: 1px solid black;
     border-radius: 5px;
     color: black;
