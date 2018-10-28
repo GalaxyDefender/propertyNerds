@@ -14,6 +14,7 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
   </head>
@@ -75,7 +76,7 @@
             </div>
           </div>
 
-          <form class="carousel-from col-8 offset-2" action="" style="position: absolute; bottom: 100px;">
+          <form class="carousel-from col-12 col-md-8 offset-md-2" action="">
             <div class="form-row" style="margin-bottom: 20px;">
                 <select class="custom-select col-md-1 col-sm-2" id="inputGroupSelect01" style="margin-right: 15px;">
                   <option selected>Rent</option>
@@ -116,7 +117,7 @@
 
       <div class="container">
 
-        <div class="row" style="margin-bottom: -30px;">
+        <div class="row d-none d-sm-block" style="margin-bottom: -30px;">
           <nav aria-label="breadcrumb" class=".d-none .d-md-block .d-xl-none">
             <ol class="breadcrumb">
               You are here:&nbsp;<li class="breadcrumb-item"><a href="#">Property Nerds</a></li>
@@ -129,7 +130,7 @@
           <div class="col-10">
             <h1>Property&nbsp; &nbsp; Nerds</h1>
           </div>
-          <div class="col-2">
+          <div class="col-2 d-none d-sm-block">
             <img class="top-icons animated" id="print_icon" src="img/baseline_print_black_18dp.png" alt="Print">
             <img class="top-icons animated" id="share_icon" src="img/baseline_share_black_18dp.png" alt="Share">
           </div>
@@ -141,14 +142,16 @@
           </div>
         </div>
 
-        <div class="row" style="margin-bottom: 25px; margin-top: 25px;">
+        <div class="row d-none d-sm-block" style="margin-bottom: 25px; margin-top: 25px;">
           <div class="offset-11 col-1">
             <span class="more">more</span>
           </div>
         </div>
 
         <div class="row">
-          <h2>Featured&nbsp; &nbsp; Properties</h2>
+          <div class="col-12">
+            <h2>Featured&nbsp; &nbsp; Properties</h2>
+          </div>
         </div>
         
 
@@ -211,12 +214,12 @@
           <hr>
           <p>Residential For Sale [54]: </p>
           <div class="row">
-            <div class="col-10">
+            <div class="col-md-10">
                 Website Powered by Prop Data
                 <br>
                 Copyright &copy; 2017 Property Nerds
             </div>
-            <div class="col">
+            <div class="col-md-2">
               <a href="#"><img class="social-icons" src="img/if_facebook_social_media_online_970002.png" alt="Facebook icon"></a>
               <a href="#"><img src="img/if_twitter_social_media_online_970003.png" alt="Twitter icon" class="social-icons"></a>
               <a href="#"><img src="img/if_google__plus__icon__social__media_2986196.png" alt="Googe plus icon" class="social-icons"></a>
