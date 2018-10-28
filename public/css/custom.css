@@ -3,13 +3,18 @@
     src: url('../fonts/BEBAS___.TTF');
 }
 
-html {
+body {
+    font-family: 'Lato', sans-serif;
     width: 100%;
 }
 
 h1, h2, h3, h4 {
     text-transform: capitalize;
     font-family: BEBAS;
+}
+
+p {
+    color: #676966;
 }
 
 .logoNerd {
@@ -40,6 +45,11 @@ h1, h2, h3, h4 {
     border: 1px solid black;
     border-radius: 5px;
     color: black;
+}
+
+li.breadcrumb-item a{
+    color: #969a95;
+    text-decoration: none;
 }
 
 .more{
