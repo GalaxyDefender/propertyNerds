@@ -57,6 +57,16 @@ h1, h2, h3, h4 {
     padding: 40px;
 }
 
+.custom-select {
+    color: black;
+    border-radius: 0px;
+    background: #fff url("../img/chevron-bottom-2x.png") no-repeat right .75rem center;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
 .nd2-input-group {
     color: white;
 }
