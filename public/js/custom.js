@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    $(".call").mouseenter(function(){
+    $(".top-icons").mouseenter(function(){
         $(this).addClass("pulse");
+    });
+    $(".top-icons").mouseleave(function(){
+        $(this).removeClass("pulse");
     });
 });
