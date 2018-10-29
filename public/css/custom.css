@@ -21,11 +21,13 @@ p {
     width: 75%;
     height: 75%;
     position: relative;
+    opacity: 1;
 }
 
 #smallNerd {
     width: 40%;
     height: 40%;
+    opacity: 1;
 }
 
 .nav-item:nth-child(-n + 2) {
@@ -76,6 +78,8 @@ li.breadcrumb-item a{
 
 #myCarousel {
     margin-bottom: 25px;
+    position: relative; 
+    bottom: 200px; z-index: -1;
 }
 
 .carousel-from {
@@ -119,7 +123,7 @@ li.breadcrumb-item a{
 }
 
 img.d-block.w-100 {
-    height: 800px;
+    height: 900px;
 }
 
 .top-icons {
