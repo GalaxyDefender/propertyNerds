@@ -135,37 +135,17 @@ li.breadcrumb-item a{
 }
 
 .nd2-input-group .btn {
+    background: rgba(0, 0, 0, 0) url("../img/baseline_search_black_18dp.png") no-repeat left .75rem center;
     border: 2px solid white;
     padding: 6px;
+    text-align: right;
+    float: right;
 }
 
 .nd2-input-group .btn:hover {
     background-color: white;
     color: black;
 }
-
-/* #ref-num {
-    border: 1px solid white;
-    padding: 10px;
-    margin-left: -5px;
-    float: left;
-}
-
-#more-search {
-    border: 1px solid white;
-    padding: 10px;
-    float: right;
-}
-
-#more-search::after {
-    content: "Search Options";
-}
-
-#search {
-    border: 2px solid white;
-    padding: 9px;
-    float: right;
-} */
 
 img.d-block.w-100 {
     height: 980px;
