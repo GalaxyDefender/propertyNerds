@@ -135,16 +135,20 @@ li.breadcrumb-item a{
 }
 
 .nd2-input-group .btn {
-    background: rgba(0, 0, 0, 0) url("../img/baseline_search_black_18dp.png") no-repeat left .75rem center;
+    background: rgba(0, 0, 0, 0) url("../img/baseline_search_white_18dp.png") no-repeat left 5px center;
     border: 2px solid white;
     padding: 6px;
     text-align: right;
-    float: right;
 }
 
 .nd2-input-group .btn:hover {
-    background-color: white;
+    background: rgba(255, 255, 255, 0) url("../img/baseline_search_black_18dp.png") no-repeat left 5px center;
     color: black;
+    background-color: white;
+}
+
+#search {
+    padding-top: 100px;
 }
 
 img.d-block.w-100 {
