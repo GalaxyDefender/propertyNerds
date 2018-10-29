@@ -122,6 +122,12 @@ li.breadcrumb-item a{
 #inputGroupSelect05 {
     background: rgba(0, 0, 0, 0) url("../img/chevron-bottom-white-2x.png") no-repeat left .75rem center;
     text-align: right;
+    text-align-last: right;
+}
+
+#inputGroupSelect05 > option {
+    background-color: white;
+    color: black;
 }
 
 .nd2-input-group input.form-control,
@@ -130,7 +136,6 @@ li.breadcrumb-item a{
 .nd2-input-group .btn {
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid white;
     border-radius: 0px;
 }
 
