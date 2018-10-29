@@ -8,6 +8,10 @@ body {
     width: 100%;
 }
 
+header {
+    opacity: 0.8; 
+}
+
 h1, h2, h3, h4 {
     text-transform: capitalize;
     font-family: BEBAS;
@@ -79,7 +83,8 @@ li.breadcrumb-item a{
 #myCarousel {
     margin-bottom: 25px;
     position: relative; 
-    bottom: 200px; z-index: -1;
+    bottom: 200px; 
+    z-index: -1;
 }
 
 .carousel-from {

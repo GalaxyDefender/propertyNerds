@@ -1,11 +1,19 @@
 /* Smart phones */
 @media screen and (max-width: 480px) {
+    header {
+        opacity: 1;
+    }
+
     li.nav-item a {
         text-align: center;
     }
 
     .nav-item:nth-child(-n+2) {
         margin-right: 0px;
+    }
+
+    #myCarousel {
+        bottom: 0px;
     }
 
     img.d-block.w-100 {
