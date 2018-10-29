@@ -106,11 +106,45 @@ li.breadcrumb-item a{
     background: #fff url("../img/chevron-bottom-2x.png") no-repeat right .75rem center;
 }
 
-.nd2-input-group {
-    color: white;
+#inputGroupSelect01, 
+#inputGroupSelect02,
+#inputGroupSelect03,
+#inputGroupSelect04,
+#inputGroupSelect05 {
+    margin-right: 15px;
 }
 
-#ref-num {
+#inputGroupSelect04 {
+    border: 0px;
+    text-align: right;
+}
+
+#inputGroupSelect05 {
+    background: rgba(0, 0, 0, 0) url("../img/chevron-bottom-white-2x.png") no-repeat left .75rem center;
+    text-align: right;
+}
+
+.nd2-input-group input.form-control,
+.nd2-input-group input.form-control::placeholder,
+.nd2-input-group select.custom-select,
+.nd2-input-group .btn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 0px;
+}
+
+.nd2-input-group .btn {
+    border: 2px solid white;
+    padding: 6px;
+}
+
+.nd2-input-group .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* #ref-num {
     border: 1px solid white;
     padding: 10px;
     margin-left: -5px;
@@ -131,7 +165,7 @@ li.breadcrumb-item a{
     border: 2px solid white;
     padding: 9px;
     float: right;
-}
+} */
 
 img.d-block.w-100 {
     height: 980px;

@@ -80,13 +80,13 @@
 
         <form class="carousel-form col-12 col-sm-12 col-md-8 offset-md-2" action="">
           <div class="form-row" style="margin-bottom: 20px;">
-              <select class="custom-select col-12 col-md-1 col-sm-2" id="inputGroupSelect01" style="margin-right: 15px;">
+              <select class="custom-select col-12 col-md-1 col-sm-2" id="inputGroupSelect01">
                 <option selected>Rent</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
                 <option value="3">Three</option>
               </select>
-              <select class="custom-select col-12 col-md-4 col-sm-4" id="inputGroupSelect02" style="margin-right: 15px;">
+              <select class="custom-select col-12 col-md-4 col-sm-4" id="inputGroupSelect02">
                 <option selected>Commercial Property</option>
                 <option value="1">One</option>
                 <option value="2">Two</option>
@@ -96,19 +96,19 @@
           </div>
 
           <div class="form-row nd2-input-group">
-            <div class="col-12">
-              <span id="ref-num"><strong>#</strong> Web Ref Number Search</span>
-            </div>
-            <div class="col-12">
-              <span style="text-align: right; float: right; padding: 10px;">125 Properties</span>
-            </div>
-            <div class="col-12">
-              <span id="more-search"><img src="img/chevron-bottom-white-2x.png" style="padding-right: 5px;" alt=""> More </span>
-            </div>
-            <div class="col-12">
-              <span id="search">SEARCH</span>
+            <input type="text" class="form-control col-12 col-md-2" id="inputGroupSelect03" placeholder="# Web Ref Number Search">
+            <input type="text" disabled class="form-control col-12 col-md-6" id="inputGroupSelect04" placeholder="125 Properties">
+            <select class="custom-select col-12 col-md-2" id="inputGroupSelect05">
+              <option selected>More Search Options</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <div class="col-12 col-md-1">
+              <button type="submit" class="btn">SEARCH</button>
             </div>
           </div>
+          
         </form>
       
 
