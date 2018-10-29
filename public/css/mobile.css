@@ -4,6 +4,10 @@
         opacity: 1;
     }
 
+    .logoNerd {
+        top:0px;
+    }
+
     li.nav-item a {
         text-align: center;
     }
