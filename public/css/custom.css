@@ -123,6 +123,10 @@ li.breadcrumb-item a{
     float: right;
 }
 
+#more-search::after {
+    content: "Search Options";
+}
+
 #search {
     border: 2px solid white;
     padding: 9px;

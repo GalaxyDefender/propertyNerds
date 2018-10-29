@@ -31,6 +31,10 @@
         bottom: 0px;
     }
 
+    #more-search::after {
+        content: "";
+    }
+
     .card .web-ref {
         position: relative;
         background-color: rgba(0, 0, 0, .8);
