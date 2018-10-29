@@ -85,6 +85,7 @@ li.breadcrumb-item a{
     margin-bottom: 25px;
     position: relative; 
     bottom: 200px; 
+    margin-bottom: -200px;
     z-index: -1;
 }
 
@@ -129,7 +130,7 @@ li.breadcrumb-item a{
 }
 
 img.d-block.w-100 {
-    height: 900px;
+    height: 980px;
 }
 
 .top-icons {

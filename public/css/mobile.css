@@ -18,6 +18,7 @@
 
     #myCarousel {
         bottom: 0px;
+        margin-bottom: 10px;
     }
 
     img.d-block.w-100 {
@@ -64,6 +65,7 @@
 
     #myCarousel {
         bottom: 0px;
+        margin-bottom: 10px;
     }
 
     .card .web-ref {
