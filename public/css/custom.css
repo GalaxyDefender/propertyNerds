@@ -33,6 +33,7 @@ p {
     width: 40%;
     height: 40%;
     opacity: 1;
+    top:0px;
 }
 
 .nav-item:nth-child(-n + 2) {

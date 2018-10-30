@@ -56,6 +56,38 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    li.nav-item a {
+        text-align: center;
+    }
+
+    .nav-item:nth-child(-n+2) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .navbar-brand {
+        align-items: center;
+    }
+
+    .logoNerd {
+        width: 35%;
+        height: 35%;
+        /* padding-bottom: 60px; */
+        margin-left: 25%;
+        top: 0px;
+    }
+
+    .nav-item:nth-child(-n+2) {
+        margin-right: 5px;
+    }
+
+    .nav-link {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 900px) {
     header {
         opacity: 1;
