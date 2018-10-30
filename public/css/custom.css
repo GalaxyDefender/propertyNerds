@@ -84,6 +84,7 @@ li.breadcrumb-item a{
 .more:hover{
     color: white;
     background-color: black;
+    text-decoration: none;
 }
 
 #myCarousel {
