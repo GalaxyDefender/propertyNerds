@@ -69,6 +69,10 @@ li.breadcrumb-item a{
     text-decoration: none;
 }
 
+.breadcrumb {
+    background-color: white;
+}
+
 .more{
     color: black;
     background-color: white;
