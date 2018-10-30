@@ -118,9 +118,16 @@ li.breadcrumb-item a{
     margin-right: 15px;
 }
 
+#inputGroupSelect03 {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
 #inputGroupSelect04 {
     border: 0px;
     text-align: right;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
 }
 
 #inputGroupSelect05 {
@@ -129,9 +136,14 @@ li.breadcrumb-item a{
     text-align-last: right;
 }
 
-#inputGroupSelect05 > option {
+select#inputGroupSelect05 > option {
     background-color: white;
     color: black;
+    direction: ltr;
+}
+
+select#inputGroupSelect05 {
+    direction: rtl;
 }
 
 .nd2-input-group input.form-control,
@@ -158,6 +170,11 @@ li.breadcrumb-item a{
 
 #search {
     padding-top: 100px;
+}
+
+.btn:hover,
+#search:hover {
+    color: black;
 }
 
 img.d-block.w-100 {
